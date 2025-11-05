@@ -1,0 +1,67 @@
+/* lab-styles.css - students should not change these class names */
+
+.app {
+  max-width: 760px;
+  margin: 0 auto;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+  
+.header {
+  text-align: center;
+  margin-bottom: 12px;
+}
+.student-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+  align-items: center;
+  justify-content: center;
+  width: inherit;
+}
+.input {
+  padding: 8px 10px;
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+}
+.input-grade {
+  width: 100px;
+}
+.btn {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  background: #0b5cff;
+  color: white;
+  cursor: pointer;
+}
+.controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.filters { display: flex; gap: 6px; }
+.filter-btn { padding: 6px 8px; border-radius: 6px; border: 1px solid #ccc; background: white; cursor: pointer; }
+.filter-btn.active { background: #0b5cff; color: white; border-color: #084ecb; }
+.student-list { list-style: none; padding: 0; margin: 0; width: 100%; }
+.student-item { display: flex; justify-content: space-between; padding: 10px; border-bottom: 1px solid #eee; align-items: center; width: 100%; }
+.student-name { font-weight: 600; }
+.student-grade { margin-left: 12px; }
+.student-status { font-size: 0.9em; margin-left: 8px; }
+.student-pass { background: #f6ffef; }
+.student-fail { background: #fff6f6; }
+.delete-btn { background: transparent; border: 1px solid #ff6b6b; color: #ff6b6b; padding: 6px 8px; border-radius: 6px; cursor: pointer; }
+.no-data { padding: 12px; text-align: center; color: #666; }
+.form-error { color: #b00020; font-size: 0.9em; margin-left: 8px; }
+.search { width: 220px; }
+.sort-btn { padding: 6px 10px; }
+.stats { margin-bottom: 8px; font-size: 0.95em; color: #333; }
